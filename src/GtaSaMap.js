@@ -89,6 +89,7 @@ export default function GtaSaMap() {
       style={{ height: "80vh", width: "100%" }}
       maxBounds={bounds}
       maxBoundsViscosity={1.0}
+      attributionControl={false}
     >
       <ImageOverlay url="/gta_sa_map.png" bounds={bounds} />
       <Marker
