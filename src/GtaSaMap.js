@@ -11,15 +11,15 @@ const usfsIcon = icon({
   popupAnchor: [0, -32],
 });
 
-// Crea el icono personalizado para JJ Bar (puedes usar el mismo icono o cambiar la ruta)
+// Crea el icono personalizado para JJ Bar
 const barIcon = icon({
-  iconUrl: "/icons/bar.png", // Cambia este archivo si tienes un icono distinto, si no, usa el de USFS
+  iconUrl: "/icons/bar.png",
   iconSize: [64, 64],
   iconAnchor: [16, 32],
   popupAnchor: [0, -32],
 });
 
-// Función para convertir coordenadas del juego a imagen
+// Conversión de coordenadas del juego a imagen
 const IMAGE_HEIGHT = 6000;
 function gameCoordsToImgCoords(x_game, y_game) {
   const escala_x = 0.9984;
@@ -51,11 +51,10 @@ export default function GtaSaMap() {
       crs={CRS.Simple}
       scrollWheelZoom={true}
       style={{ height: "80vh", width: "100%" }}
+      maxBounds={bounds}
+      maxBoundsViscosity={1.0}
     >
-      <ImageOverlay
-        url="https://i.imgur.com/HriwvHx.jpeg"
-        bounds={bounds}
-      />
+      <ImageOverlay url="/gta_sa_map.png" bounds={bounds} />
       <Marker
         position={gameCoordsToImgCoords(...usfsCoords)}
         icon={usfsIcon}
