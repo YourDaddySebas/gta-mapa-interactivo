@@ -5,7 +5,7 @@ import "leaflet/dist/leaflet.css";
 
 // Crea el icono personalizado para USFS
 const usfsIcon = icon({
-  iconUrl: "/icons/usfs.png",
+  iconUrl: "icons/usfs.png",
   iconSize: [16, 16], // Tamaño del icono
   iconAnchor: [16, 32],
   popupAnchor: [0, -32],
@@ -13,28 +13,28 @@ const usfsIcon = icon({
 
 // Crea el icono personalizado para JJ Bar
 const barIcon = icon({
-  iconUrl: "/icons/bar.png",
+  iconUrl: "icons/bar.png",
   iconSize: [32, 32],
   iconAnchor: [16, 32],
   popupAnchor: [0, -32],
 });
 
 const turismoIcon = icon({
-  iconUrl: "/icons/turistico.png",
+  iconUrl: "icons/turistico.png",
   iconSize: [32, 32],
   iconAnchor: [16, 32],
   popupAnchor: [0, -32],
 });
 
 const negociosIcon = icon({
-  iconUrl: "/icons/negocio.png",
+  iconUrl: "icons/negocio.png",
   iconSize: [32, 32],
   iconAnchor: [16, 32],
   popupAnchor: [0, -32],
 });
 
 const policeIcon = icon({
-  iconUrl: "/icons/police.png",
+  iconUrl: "icons/police.png",
   iconSize: [32, 32],
   iconAnchor: [16, 32],
   popupAnchor: [0, -32],
@@ -91,7 +91,7 @@ export default function GtaSaMap() {
       maxBoundsViscosity={1.0}
       attributionControl={false}
     >
-      <ImageOverlay url="/gta_sa_map.png" bounds={bounds} />
+      <ImageOverlay url="gta_sa_map.png" bounds={bounds} />
       <Marker
         position={gameCoordsToImgCoords(...usfsCoords)}
         icon={usfsIcon}
