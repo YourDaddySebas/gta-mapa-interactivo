@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/gta-mapa-interactivo/static/css/main.44fb9660.css",
-    "main.js": "/gta-mapa-interactivo/static/js/main.a84cd55b.js",
+    "main.js": "/gta-mapa-interactivo/static/js/main.5073ff26.js",
     "static/js/453.7ee9f479.chunk.js": "/gta-mapa-interactivo/static/js/453.7ee9f479.chunk.js",
     "index.html": "/gta-mapa-interactivo/index.html",
     "main.44fb9660.css.map": "/gta-mapa-interactivo/static/css/main.44fb9660.css.map",
-    "main.a84cd55b.js.map": "/gta-mapa-interactivo/static/js/main.a84cd55b.js.map",
+    "main.5073ff26.js.map": "/gta-mapa-interactivo/static/js/main.5073ff26.js.map",
     "453.7ee9f479.chunk.js.map": "/gta-mapa-interactivo/static/js/453.7ee9f479.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44fb9660.css",
-    "static/js/main.a84cd55b.js"
+    "static/js/main.5073ff26.js"
   ]
 }
