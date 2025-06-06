@@ -1,4 +1,5 @@
 export const points = [
+  // USFS
   {
     coords: [-2084.3704, -2266.5444],
     type: "usfs",
@@ -16,12 +17,14 @@ export const points = [
     name: "Torre de vigilancia Back o Beyond",
     description: "Una torre de vigilancia a servicio del US. Forest Service",
   },
+  // Police
   {
     coords: [-2162.2605, -2385.6914],
     type: "police",
     name: "Subestación del Sheriff de Angel Pine",
     description: "La subestación del sheriff de Angel Pine, encargada de la seguridad de la zona.",
   },
+  // Turistico
   {
     coords: [-982.7253, -2153.6487],
     type: "turistico",
@@ -48,6 +51,7 @@ export const points = [
     description:
       "Conoce el pasado y la gran arquitectura de la misma..¿que hace aqui?...¿porque aqui?",
   },
+  // Bar
   {
     coords: [-2104.1787, -2342.3433],
     type: "bar",
@@ -68,17 +72,19 @@ export const points = [
     description:
       "Un bar con un ambiente agradable, ideal para pasar un buen rato.",
   },
+  // Negocios
   {
     coords: [-1602.1514, -2709.9587],
     type: "negocio",
     name: "Estación de Gasolina AP",
     description: "Una estación de gasolina, ideal para repostar combustible.",
   },
-  { coords: [-1624.3854,-2693.2678,48.7427],
+  {
+    coords: [-1624.3854, -2693.2678, 48.7427],
     type: "negocio",
     name: "Rust & Road",
     description: "Una concesionaria de autos, ideal para comprar un vehículo.",
-   },
+  },
 ];
 
 export default points;
