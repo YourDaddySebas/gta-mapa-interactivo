@@ -36,3 +36,92 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background: #222; /* Cambia este color para el fondo general */
+  margin: 0;
+  padding: 0;
+}
+
+.app-bg {
+  min-height: 100vh; /* Ocupa toda la altura de la pantalla */
+  background: #222;  /* Fondo de la app */
+}
+
+.titulo-mapa {
+  background: #00000017; /* Cambia este color para el fondo del título */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.09);
+}
+
+.gta-map-container {
+  background: #f3ecd1;
+  border: 8px solid #b39b6d;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(80,60,30,0.18);
+  padding: 32px;
+  margin: 30px auto;
+  max-width: 1200px;
+}
+
+.titulo-mapa {
+  font-family: "Georgia", serif;
+  background: transparent;
+  color: #5b4a2e;
+  text-align: left;
+  padding: 0 0 18px 0;
+  margin: 0;
+  font-size: 2.7rem;
+  text-shadow: 2px 2px 0 #e2d2b0;
+}
+
+body {
+  background: #ede9d3;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #fff8e6 !important;
+  border: 2.5px solid #b39b6d !important;
+  border-radius: 10px !important;
+  font-family: "Georgia", serif;
+  color: #5b4a2e;
+}
+
+.img-folleto-jjs {
+  position: absolute;
+  left: 30px;
+  top: 90px;
+  width: 140px;
+  z-index: 1200;
+  transform: rotate(-6deg);
+  box-shadow: 2px 4px 12px rgba(60,40,10,0.10);
+} 
+.img-folleto-usfs {
+  position: absolute;
+  right: 30px;          /* Esquina derecha */
+  top: 80px;            /* Altura, ajústala según tu diseño */
+  width: 80px;          /* Ajusta el tamaño según tu preferencia */
+  z-index: 1200;
+  transform: rotate(5deg); /* Ligeramente rotado para look de folleto */
+  box-shadow: 2px 4px 10px rgba(60,40,10,0.10);
+  background: #fffef9;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.img-folleto-smokey {
+  position: absolute;
+  right: 20px;
+  top: 170px; /* un poco más abajo que usfs-logo */
+  width: 180px;
+  z-index: 1199;
+  transform: rotate(-2deg);
+  box-shadow: 2px 4px 12px rgba(60,40,10,0.11);
+  background: #fffef9;
+  border-radius: 12px;
+  padding: 6px;
+}
